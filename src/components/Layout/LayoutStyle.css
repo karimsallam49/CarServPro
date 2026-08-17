@@ -1,0 +1,6 @@
+.layoutcontainer {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;  
+  scroll-padding-top: 120px; 
+}

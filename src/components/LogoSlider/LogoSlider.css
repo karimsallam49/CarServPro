@@ -1,0 +1,42 @@
+.logo-slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logo-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(200%); /* علشان نكرر اللوجوهات */
+  animation: scroll 20s linear infinite;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  padding: 0 40px;
+}
+
+.logo-item img {
+  height: 60px;
+  opacity: 0.8;
+  transition: transform 0.3s ease;
+}
+
+.logo-item img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

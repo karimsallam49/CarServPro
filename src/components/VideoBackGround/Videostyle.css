@@ -1,0 +1,76 @@
+.video-page-container{
+  position: sticky;
+  top: 1%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow:visible;
+  z-index: 100; 
+}
+
+.video-container {
+position:relative;
+
+
+}
+.orb-content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex
+;
+}
+.orb-spline {
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex
+;
+    position: relative;
+}
+.home-circel_rive {
+    width: 100%;
+    height: 100%;
+}
+.orb-circle {
+    display: block;
+    position: absolute;
+    z-index:-1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+@media (max-width: 768px) {
+  .video-page-container h4 {
+    font-size: 1.5rem !important;
+    transform:scale(.8)
+  }
+  .video-page-container img {
+    width: 45px !important;
+    height: auto !important;
+  }
+}
+
+/* شاشات صغيرة (sm) */
+@media (max-width: 576px) {
+  .video-page-container h4 {
+    font-size: 1.2rem !important;
+
+  }
+  .video-page-container img {
+    width: 35px !important;
+    height: auto !important;
+  }
+}

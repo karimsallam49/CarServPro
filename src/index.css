@@ -1,0 +1,83 @@
+
+
+:root {
+  --e-global-typography-primary-font-family: "Avenir", sans-serif;
+  --e-global-typography-text-font-family: "Analogue", sans-serif;
+  --text_light: #ADA4A1;
+  --ContentColor: #00cceb;
+  --LightColor: #C2D4E0;
+  --BlackColor: #000;
+  --GreenColor: rgb(68, 127, 89);
+  --MainBorderRadius: 20px;
+  --radius: 0.625rem;
+
+}
+
+:root {
+    --primary-color: #8E44AD;
+    --primary-dark: #703688;
+    --secondary-color: #16A085;
+    --accent-color-1: #E84C3D;
+    --accent-color-2: #F39C12;
+    --text-color: #1A202C;
+    --text-light: #4A5568;
+    --text-lighter: #A0AEC0;
+    --bg-color: #FFFFFF;
+    --bg-light: #F8F4FC;
+    --bg-dark: #F2EDF8;
+    --bg-darker: #EBE5F3;
+    --bg-ai-partners: #F5F0FA;
+    --border-color: #E2E8F0;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+    --transition: all 0.3s 
+ease;
+}
+body {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 120px; 
+}
+
+.ContentColor{
+  color:var(--ContentColor);
+}
+.text_light{
+  color:var(--text_light);
+}
+.LightColor{
+  color:var(--LightColor);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow:hidden
+}
+
+
+.lines-01 {
+    aspect-ratio: 368 / 900;
+    object-fit: cover;
+    width: 23rem;
+    margin-top: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.home-circel_rive {
+    width: 82rem;
+    height: 82rem;
+}
+
+.active-link {
+  background-color: var(--secondary-color)!important; 
+  color: white !important;
+  border-radius: 20px;
+  padding: 12px;
+  transition: 0.3s;
+}
+.buttoncolor{
+  background-color:var(--secondary-color) !important;
+}
